@@ -1,21 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package calculadora;
 
-/**
- *
- * @author sirrazabal
- */
+import java.util.List;
+
 public class Calculadora {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public int sumar(List<Integer> numeros) {
+        int suma = 0;
+        for (int i = 0; i < numeros.size(); i++) {
+            suma += numeros.get(i);
+        }
+        return suma;
     }
-    
+
+//    public int restar(List<Integer> numeros) {
+//            
+//    }
+//
+//    public int multi(int n1, int n2) {
+//            
+//    }
+//
+//    public int dividir(int n1, int n2) {
+//            
+//    }
 }
