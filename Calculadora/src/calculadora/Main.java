@@ -34,6 +34,12 @@ public class Main {
                     num = Integer.parseInt(scan.nextLine());
                     numeros.add(num);
                 }
+                
+                Calculadora calculador = new Calculadora();
+                
+                int suma = calculador.sumar(numeros);
+                
+                System.out.println("La suma es: "+suma);
             }
         }
     }
