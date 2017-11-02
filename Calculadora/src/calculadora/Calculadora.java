@@ -12,9 +12,13 @@ public class Calculadora {
         return suma;
     }
 
-//    public int restar(List<Integer> numeros) {
-//            
-//    }
+    public int restar(List<Integer> numeros) {
+        int resta = 0;
+        for (int i = 0; i < numeros.size(); i++) {
+            resta-= numeros.get(i);
+        }
+        return resta;
+    }
 //
 //    public int multi(int n1, int n2) {
 //            
